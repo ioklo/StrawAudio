@@ -1,0 +1,41 @@
+BasedOnStyle: LLVM
+Standard: c++20
+IndentWidth: 4
+AccessModifierOffset: -4
+ColumnLimit: 120
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: false
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+AlignAfterOpenBracket: AlwaysBreak
+AlignOperands: DontAlign
+ContinuationIndentWidth: 4
+AllowShortBlocksOnASingleLine: Never
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortEnumsOnASingleLine: false
+AllowShortLambdasOnASingleLine: None
+BinPackArguments: false
+BinPackParameters: false
+NamespaceIndentation: None
+PointerAlignment: Left
+ReferenceAlignment: Left
+SortIncludes: Never
+MaxEmptyLinesToKeep: 1
+SeparateDefinitionBlocks: Always
+InsertBraces: false
+RemoveBracesLLVM: true
+LineEnding: LF
